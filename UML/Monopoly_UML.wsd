@@ -1,0 +1,188 @@
+@startuml
+
+class Banker{
+
+    +updateMoney(): null
+    +exitPay(): null
+    +sellProperty(): boolean
+    +checkOwner(): boolean
+    +seizeProperty(): boolean
+    +payRent(): boolean
+}
+
+Class Card {
+
+    -data: String
+    -collectable: boolean
+    -type: String
+    -icon: ImageIcon
+    -action: String
+
+    +getData(): String 
+    +getStatus(): boolean
+    +getType(): String
+    +getIcon(): ImageIcon
+    +getAction(): String
+
+}
+
+Class CircularLinkedList {
+
+    -head: Node
+    -Tail: Node
+
+    +addNode(): null 
+}
+
+Class Node {
+
+    -pos_x: int
+    -pos_y: Object 
+    -property: Property
+    -next: Node
+    -prev: Node
+
+}
+
+Class Dice {
+    -result: int
+
+    +roll(): int
+    +getResult(): int
+    +setResult(): null
+}
+
+Class Player {
+
+    -name: String
+    -money: int
+    -properties: list<Property>
+    -inJail: boolean
+    -cards: list<Card>
+    -bankrupt: boolean
+    -dice_result: int
+    -icon: JLabel
+    -money_icon: JTextField
+    -consecutive_doubles: int
+    
+    +getName(): String
+    +getProperties(): list<Property> 
+    +getMoney(): int  
+    +isInJail(): boolean
+    +getCards():List<Card>
+    +getCurrenPosition: CircularLinkedList.Node
+    +getX(): int
+    +getY(): int
+    +getMoneyIcon(): JTextField 
+    +getDiceResult(): int
+    +isBankrupt(): boolean
+    +getConsecutiveDoubles(): int
+    +getIcon(): JLabel
+    +setMoney(): null
+    +setMoneyIcon(): null
+    +setProperty(): null
+    +setName(): null
+    +setBankrupt(): null
+    +setJail(): boolean
+    +setIcon(): null
+    +setCurrentPosition(): null
+    +prevPosition(): null
+    +setDiceResult(): null
+    +rollDice(): int
+    +updatePosition(): null
+    +keepCard(): null
+    +useCard(): null
+    +addProperty(): null
+    +removeProperty(): null
+
+}
+
+Class Property {
+
+    -name: string
+    -rent: int
+    -price: int
+    -owner: Player
+    -type: String
+    -icon: ImageIcon
+
+    +getName(): String
+    +getOwner(): Player 
+    +setOwner(): null 
+    +getRent(): int 
+    +getPrice(): int 
+    +getType(): null
+    +setType(): null
+    +getIcon(): ImageIcon
+
+}
+
+Class Board {
+
+    -dices: List<Dice> 
+    -players: List<Player> 
+    -squares: CircularLinkedList
+    -cards: List<Card>
+    -currentPlayer: Player
+    -turns: int 
+    -banker: Banker
+    -jail: CircularLinkedList.Node 
+    -reten: CircularLinkedList.Node 
+    -transmetro: CircularLinkedList.Node 
+    -ua: CircularLinkedList.Node 
+    +troja:CircularLinkedList.Node   
+
+    +InicialSetup(): null
+    +setDiceImages(): null
+    +updatePanelColors(): null
+    +setInicialPositions(): null
+    +updatePlayerGraphicComponents(): null
+    +showProperties(): null
+    +roll_buttonActionPerformed(): null
+    +hinestroza_buttonActionPerformed(): null
+    +borja_buttonActionPerformed(): null
+    +viera_buttonActionPerformed(): null
+    +teo_buttonActionPerformed(): null
+    +getCurrenPlayer(): Player
+    +getJailNode(): CircularLinkedList.Node 
+    +getRetenNode(): CircularLinkedList.Node 
+    +getTransmetroNode(): CircularLinkedList.Node
+    +getUANode(): CircularLinkedList.Node
+    +getTrojaNode(): CircularLinkedList.Node 
+    +endGame(): boolean
+    +checkDoubles(): boolean
+    +setConsecutiveDoubles(): null
+    +turns(): null
+    +checkExitSquare(): boolean
+    +checkRetenSquare(): boolean
+    +consecutiveDoubles(): boolean
+    +sendToJail():null
+    +inJail():boolean
+    +buyProperty():boolean
+    +payRent():boolean
+    +getCommunityCard(): Card
+    +getFortuneCard(): Card
+    +returnCard(): Card
+    +performCardAction()
+    +getNumber(): int
+    +movementsForCardActions(): null
+    +squareAction(): null
+    +nexTurn(): null
+    +round(): null
+
+}
+
+
+Node "*" *--  "1" CircularLinkedList
+Player "1" o-- "many" Property: has >
+Board "1" *-- "2..4" Player: has >
+Board "1" *--"many" Card
+Board "1" -- "1" Banker 
+Board "1" *-- "1" CircularLinkedList
+Board "1" *-- "2" Dice
+Player "1" *-- "..." Card 
+Player -- Banker
+Player -- Dice
+Property -- Banker
+
+@enduml

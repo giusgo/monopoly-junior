@@ -1,0 +1,25 @@
+data;collectable;type;action;path
+GOOOOOOOL de Cetré, todos ganan  $500.;false;community;pay all;src/Images/community/1.png
+Lloralo, ve a la troja y si pasas por salida cobras $200.;false;community;move charge;src/Images/community/2.png
+Has sido elegido presidente de Junior FC pague a cada jugador $50.;false;community;charge;src/Images/community/3.png
+Por estar al dia con ELECTRICARIBE CV, cobra $150.;false;community;pay;src/Images/community/4.png
+Salga de la carcel GRATIS.;true;community;none;src/Images/community/5.png
+Te pillaron los tombos volandote del estadio, ve a la carcel, no pasa por salida, no cobra $200.;false;community;jail;src/Images/community/6.png
+Avance a  "La UA", si pasas por salida cobra $200.;false;community;move charge;src/Images/community/8.png
+Los Char le pagan $300.;false;community;pay;src/Images/community/9.png
+Te pillaron sin SOAT, pague $100 al banco.;false;community;charge;src/Images/community/10.png
+AVANCE AL TRANSMETRO. Si está a LA VENTA, puede comprársela al banco. Si es PROPIEDAD de alguien, pague el doble de la renta marcada.;false;community;move charge;src/Images/community/11.png
+Retroceda 3 casillas.;false;community;move;src/Images/community/13.png
+UNINORTE le ha  regalado una beca, cobre $200.;false;fortune;pay;src/Images/fortune/15.png
+Por venta de acciones a JUNIOR FC, reciba $50.;false;fortune;pay;src/Images/fortune/16.png
+Es su cumpleaños, cobre $10 de cada jugador.;false;fortune;pay;src/Images/fortune/17.png
+Herede $100 de los char.;false;fortune;pay;src/Images/fortune/18.png
+Se equivocaron de numero en NEQUI, cobre $250.;false;fortune;pay;src/Images/fortune/19.png
+Vencimiento de fondos vacacionales, reciba $100.;false;fortune;pay;src/Images/fortune/21.png
+Te pillaron los tombos volandote del estadio, ve a la carcel, no pasa por salida, no cobra $200.;false;fortune;jail;src/Images/fortune/22.png
+Pague la prepagada, son $200.;false;fortune;charge;src/Images/fortune/23.png
+Te ganaste un mercado en La Olimpica, cobre $100.;false;fortune;pay;src/Images/fortune/24.png
+JuJu Campeón, todos cobran $50.;false;fortune;pay all;src/Images/fortune/25.png
+Ganó el segundo lugar en un concurso de belleza en Academia Sandra, cobre $20.;false;fortune;pay;src/Images/fortune/27.png
+Ibas pasando por los tres postes, 300.;false;community;charge;src/Images/community/28.png
+Se te perdieron las boletas, 200.;false;community;charge;src/Images/community/29.png

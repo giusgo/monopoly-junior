@@ -1,0 +1,41 @@
+posx, posy, type, name, rent, price, owner, path
+1039,740,none,exit,0,0,null,src/Images/properties/1.png
+910,700,color,la casa de teo,14,60,null,src/Images/properties/1.png
+850,700,community,aguinaldo del tombo,0,0,null,src/Images/properties/1.png
+790,700,color,la troja,14,60,null,src/Images/properties/2.png
+730,700,tax,el sueldo de char,200,0,null,src/Images/properties/1.png
+670,700,transport,el transmetro,70,200,null,src/Images/properties/3.png
+600,700,color,la unitranca,30,100,null,src/Images/properties/4.png
+540,700,fortune,el betplay,300,3405,null,src/Images/properties/1.png
+480,700,color,la casa del tiburon,30,100,null,src/Images/properties/5.png
+420,700,color,el giuseppemeazza,38,120,null,src/Images/properties/6.png
+340,680,jail,la modelo,300,3405,null,src/Images/properties/1.png
+320,600,color,tienda la 9cita,45,150,null,src/Images/properties/7.png
+320,550,service,electricaribe CV,45,150,null,src/Images/properties/8.png
+320,480,color,la plaza de la pah,50,160,null,src/Images/properties/9.png
+320,420,color,el viva,50,160,null,src/Images/properties/10.png
+320,350,transport,borradores sobusa,70,200,null,src/Images/properties/11.png
+320,290,color,el sisben,65,180,null,src/Images/properties/12.png
+320,230,community,aguinaldo del tombo,300,3405,null,src/Images/properties/1.png
+320,170,color,la 30,65,180,null,src/Images/properties/13.png
+320,110,color,justo y bueno,70,200,null,src/Images/properties/14.png
+320,30,none,los patios,300,3405,null,src/Images/properties/1.png
+420,30,color,popsy,80,220,null,src/Images/properties/15.png
+480,30,community,aguinaldo del tombo,0,0,null,src/Images/properties/1.png
+540,30,color,uninorte,80,220,null,src/Images/properties/16.png
+600,30,color,du front,85,240,null,src/Images/properties/17.png
+660,30,transport,cochofal,70,200,null,src/Images/properties/18.png
+720,30,color,parque central,90,260,null,src/Images/properties/19.png
+780,30,transport,aeropuerto,90,260,null,src/Images/properties/20.png
+840,30,service,la triple a,45,150,null,src/Images/properties/28.png
+910,30,color,la olimpica,100,280,null,src/Images/properties/21.png
+1000,30,reten,reten de policia,300,3405,null,src/Images/properties/1.png
+1010,110,color,el colombo,120,300,null,src/Images/properties/22.png
+1010,180,color,malecon,120,300,null,src/Images/properties/23.png
+1010,240,community,aguinaldo del tombo,300,3405,null,src/Images/properties/1.png
+1010,300,color,romelio martinez,125,320,null,src/Images/properties/24.png
+1010,360,transport,urba playa,70,200,null,src/Images/properties/25.png
+1010,420,fortune,el betplay,300,3405,null,src/Images/properties/1.png
+1010,480,color,el faraon,160,350,null,src/Images/properties/26.png
+1010,540,tax,dollarcity,300,0,null,src/Images/properties/1.png
+1010,600,color,el batallon,180,400,null,src/Images/properties/27.png
